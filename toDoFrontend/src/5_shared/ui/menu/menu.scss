@@ -1,0 +1,12 @@
+.menu {
+    position: relative;
+
+    .content {
+        display: none;
+        position: absolute;
+    }
+
+    &:hover .content {
+        display: block;
+    }
+}

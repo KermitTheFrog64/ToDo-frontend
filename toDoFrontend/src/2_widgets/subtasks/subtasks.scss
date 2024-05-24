@@ -1,0 +1,22 @@
+li {
+    cursor: pointer;
+
+    :hover {
+        background-color: #ddd;
+    }
+
+    
+}
+
+.checked span {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.subtask-remove-button {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+}
